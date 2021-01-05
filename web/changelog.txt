@@ -1,0 +1,75 @@
+<body>
+<div id="form">
+<fieldset class="fieldset">
+<legend><h3>versi 2021.b</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan No Surat Keterangan Melek Aksara (SUKMA) dan No seri Ijazah untuk jenjang PKBM dan SKB.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan validasi riwayat pendidikan formal berjenjang utk GTK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Menghilangkan isian lingkar kepala pada data rinci Peserta Didik untuk jenjang PKBM dan SKB.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan pada proses penentuan role pengguna dan peran.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penambahan beberapa atribut pelengkap pada <i>Endpoint</i> getGtk pada fitur web service.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis ketika akan melakukan sinkronisasi (harus memiliki hak akses sebagai Kepala Sekolah).</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing pada saat penambahan/perubahan akun GTK untuk jenjang PAUD/PKBM/SKB dan SD.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing untuk menampilkan data pengguna pada Manajemen Pengguna.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing rombel daring untuk jenjang PKBM dan SKB.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing saat penarikan data satuan pendidikan pada fitur proses Tarik Data.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing pada saat proses prefill nilai rapor.</li>
+	</ol>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2021.a</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan jenis rombel baru Daring/PJJ pada jenjang PKBM/SKB.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan jenis rombel baru Kursus pada jenjang PKBM/SKB.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan pemilihan role pengguna ketika saat setelah login.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan bisnis proses pada login operator sekolah dapat menggunakan fitur tarik data.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing pada API validasi untuk proses sinkronisasi.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing SILN tidak dapat tambah GTK baru.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing fitur penambahan/perubahan Akun GTK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing perubahan password dengan metode enkripsi baru.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing validasi untuk menghitung rasio rombel paralel terhadap jumlah peserta didik.</li>
+		<li><b style="color:green">[Perbaikan]</b> Bugs fixing validasi pengecekan kondisi bangunan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Pembukaan kembali isian riwayat pendidikan formal bagi GTK dengan batas waktu yang telah ditentukan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Pelepasan pengecekan data akun Kepala Sekolah/PLT Kepala Sekolah pada saat registrasi baik online maupun offline dan pada saat login ke Aplikasi Dapodik.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan bisnis proses aturan pada saat memetakan peserta didik ke dalam rombongan belajar untuk jenjang SLB.</li>
+	</ol>
+	<p><h3>Perekaman dan Perubahan Akun GTK untuk Jenjang PAUD-Dikmas dan SD</h3>
+	<img src="resources/images/alur_akun.jpg" width="80%">
+	</p>
+</fieldset>
+<fieldset class="fieldset">
+<legend><h3>versi 2021</h3></legend>
+	<ol>
+		<li><b style="color:blue">[Pembaruan]</b> Penyesuaian aplikasi setelah penggabungan antara Dapo PAUD-Dikmas dan Dapodikdasmen.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan data rinci PAUD khusus untuk jenjang PAUD.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan Program dan Layanan untuk jenjang PKBM dan SKB.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan tabulasi sertifikasi PD pada data rinci peserta didik untuk jenjang SMA dan SMK</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan referensi status desa berdasarkan Kepmendikbud Nomor 580/P/2020.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan fitur tarik data pada proses sinkronisasi guna menurunkan semua perubahan yang terjadi hanya pada data yang berada di server.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan metode penarikan data pada API web service.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan atribut tanggal mulai dan tanggal selesai pada isian rombongan belajar untuk PKBM dan SKB.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan security pada aplikasi.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan fitur untuk mengisi e-form kesiapan satuan pendidikan.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Integrasi output data hasil PPDB daerah.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Kelulusan bersama pada tingkat akhir untuk kelas TK B, 6, 9 dan 12/13.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Generate ulang kode registrasi sekolah untuk jenjang PAUD.</li>
+		<li><b style="color:blue">[Pembaruan]</b> Penambahan fitur untuk mengecek dan membuka Aplikasi PMP.</li>
+
+		<li><b style="color:green">[Perbaikan]</b> Perubahan instrumen sanitasi sesuai target SDG.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penonaktifan kurikulum 2006 (KTSP) dan wajib menggunakan kurikulum 2013. Bagi SMK wajib menggunakan kurikulum 2013 REV.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis perekaman GTK untuk pertama kali dikelola oleh Pusdatin.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis pembuatan/perubahan akun GTK untuk jenjang SMP, SMA, SMK dan SLB.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis bagi SMK tingkat 10 wajib memilih jurusan kompetensi keahlian.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis bagi SMK yang diperkenankan membuka kelas terbuka hanya pada tingkat 12 saja.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan validasi pada GUI pada saat mengeluarkan siswa yang aktif.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan pengisian rombongan belajar praktik pada jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan pengisian formulir pada peserta didik.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan pengisian formulir pada GTK</li>
+		<li><b style="color:green">[Perbaikan]</b> Perbaikan fitur ubah pada ruang praktik kerja/bengkel pada jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penyesuaian formulir pada halaman registrasi.</li>
+		<li><b style="color:green">[Perbaikan]</b> Penutupan isian akreditasi prodi pada jenjang SMK.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis pengisian tingkat kerusakan bangunan.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis pengisian tingkat kerusakan ruang.</li>
+		<li><b style="color:green">[Perbaikan]</b> Perubahan proses bisnis pengisian riwayat pendidikan formal kualifikasi S1 pada GTK.</li>
+	</ol>
+</fieldset>
